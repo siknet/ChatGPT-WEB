@@ -540,7 +540,13 @@ const googleModels = [
   "gemini-2.5-pro"
 ];
 
+const anthropicModels = [
+  "claude-instant-1.2",
+];
 
+const baiduModels = [
+  "ernie-4.0-turbo-8k",
+];
 
 const bytedanceModels = [
   "Doubao-lite-4k",
@@ -551,8 +557,13 @@ const bytedanceModels = [
   "Doubao-pro-128k",
 ];
 
+const alibabaModes = [
+  "qwen-turbo",
+];
 
-
+const tencentModels = [
+  "hunyuan-pro",
+];
 
 const moonshotModes = ["moonshot-v1-8k", "moonshot-v1-32k", "moonshot-v1-128k"];
 
@@ -589,7 +600,25 @@ const xAIModes = [
   "grok-3-latest",
 ];
 
-
+const chatglmModels = [
+  "glm-4-plus",
+  "glm-4-0520",
+  "glm-4",
+  "glm-4-air",
+  "glm-4-airx",
+  "glm-4-long",
+  "glm-4-flashx",
+  "glm-4-flash",
+  "glm-4v-plus",
+  "glm-4v",
+  "glm-4v-flash", // free
+  "cogview-3-plus",
+  "cogview-3",
+  "cogview-3-flash", // free
+  // 目前无法适配轮询任务
+  //   "cogvideox",
+  //   "cogvideox-flash", // free
+];
 
 const siliconflowModels = [
   "Qwen/Qwen2.5-7B-Instruct",
@@ -606,6 +635,31 @@ const siliconflowModels = [
   "THUDM/glm-4-9b-chat",
   "Pro/deepseek-ai/DeepSeek-R1",
   "Pro/deepseek-ai/DeepSeek-V3",
+];
+
+const ai302Models = [
+  "deepseek-chat",
+  "gpt-4o",
+  "chatgpt-4o-latest",
+  "llama3.3-70b",
+  "deepseek-reasoner",
+  "gemini-2.0-flash",
+  "claude-3-7-sonnet-20250219",
+  "claude-3-7-sonnet-latest",
+  "grok-3-beta",
+  "grok-3-mini-beta",
+  "gpt-4.1",
+  "gpt-4.1-mini",
+  "o3",
+  "o4-mini",
+  "qwen3-235b-a22b",
+  "qwen3-32b",
+  "gemini-2.5-pro-preview-05-06",
+  "llama-4-maverick",
+  "gemini-2.5-flash",
+  "claude-sonnet-4-20250514",
+  "claude-opus-4-20250514",
+  "gemini-2.5-pro",
 ];
 
 let seq = 1000; // 内置的模型序号生成器从1000开始
