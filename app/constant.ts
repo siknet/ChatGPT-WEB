@@ -536,60 +536,11 @@ const openaiModels = [
 ];
 
 const googleModels = [
-  "gemini-1.5-pro-latest",
-  "gemini-1.5-pro",
-  "gemini-1.5-pro-002",
-  "gemini-1.5-flash-latest",
-  "gemini-1.5-flash-8b-latest",
-  "gemini-1.5-flash",
-  "gemini-1.5-flash-8b",
-  "gemini-1.5-flash-002",
-  "learnlm-1.5-pro-experimental",
-  "gemini-exp-1206",
-  "gemini-2.0-flash",
-  "gemini-2.0-flash-exp",
-  "gemini-2.0-flash-lite-preview-02-05",
-  "gemini-2.0-flash-thinking-exp",
-  "gemini-2.0-flash-thinking-exp-1219",
-  "gemini-2.0-flash-thinking-exp-01-21",
-  "gemini-2.0-pro-exp",
-  "gemini-2.0-pro-exp-02-05",
-  "gemini-2.5-pro-preview-06-05",
+  "gemini-2.5-flash",
   "gemini-2.5-pro"
 ];
 
-const anthropicModels = [
-  "claude-instant-1.2",
-  "claude-2.0",
-  "claude-2.1",
-  "claude-3-sonnet-20240229",
-  "claude-3-opus-20240229",
-  "claude-3-opus-latest",
-  "claude-3-haiku-20240307",
-  "claude-3-5-haiku-20241022",
-  "claude-3-5-haiku-latest",
-  "claude-3-5-sonnet-20240620",
-  "claude-3-5-sonnet-20241022",
-  "claude-3-5-sonnet-latest",
-  "claude-3-7-sonnet-20250219",
-  "claude-3-7-sonnet-latest",
-  "claude-sonnet-4-20250514",
-  "claude-opus-4-20250514",
-];
 
-const baiduModels = [
-  "ernie-4.0-turbo-8k",
-  "ernie-4.0-8k",
-  "ernie-4.0-8k-preview",
-  "ernie-4.0-8k-preview-0518",
-  "ernie-4.0-8k-latest",
-  "ernie-3.5-8k",
-  "ernie-3.5-8k-0205",
-  "ernie-speed-128k",
-  "ernie-speed-8k",
-  "ernie-lite-8k",
-  "ernie-tiny-8k",
-];
 
 const bytedanceModels = [
   "Doubao-lite-4k",
@@ -600,28 +551,8 @@ const bytedanceModels = [
   "Doubao-pro-128k",
 ];
 
-const alibabaModes = [
-  "qwen-turbo",
-  "qwen-plus",
-  "qwen-max",
-  "qwen-max-0428",
-  "qwen-max-0403",
-  "qwen-max-0107",
-  "qwen-max-longcontext",
-  "qwen-omni-turbo",
-  "qwen-vl-plus",
-  "qwen-vl-max",
-];
 
-const tencentModels = [
-  "hunyuan-pro",
-  "hunyuan-standard",
-  "hunyuan-lite",
-  "hunyuan-role",
-  "hunyuan-functioncall",
-  "hunyuan-code",
-  "hunyuan-vision",
-];
+
 
 const moonshotModes = ["moonshot-v1-8k", "moonshot-v1-32k", "moonshot-v1-128k"];
 
@@ -658,25 +589,7 @@ const xAIModes = [
   "grok-3-latest",
 ];
 
-const chatglmModels = [
-  "glm-4-plus",
-  "glm-4-0520",
-  "glm-4",
-  "glm-4-air",
-  "glm-4-airx",
-  "glm-4-long",
-  "glm-4-flashx",
-  "glm-4-flash",
-  "glm-4v-plus",
-  "glm-4v",
-  "glm-4v-flash", // free
-  "cogview-3-plus",
-  "cogview-3",
-  "cogview-3-flash", // free
-  // 目前无法适配轮询任务
-  //   "cogvideox",
-  //   "cogvideox-flash", // free
-];
+
 
 const siliconflowModels = [
   "Qwen/Qwen2.5-7B-Instruct",
@@ -693,31 +606,6 @@ const siliconflowModels = [
   "THUDM/glm-4-9b-chat",
   "Pro/deepseek-ai/DeepSeek-R1",
   "Pro/deepseek-ai/DeepSeek-V3",
-];
-
-const ai302Models = [
-  "deepseek-chat",
-  "gpt-4o",
-  "chatgpt-4o-latest",
-  "llama3.3-70b",
-  "deepseek-reasoner",
-  "gemini-2.0-flash",
-  "claude-3-7-sonnet-20250219",
-  "claude-3-7-sonnet-latest",
-  "grok-3-beta",
-  "grok-3-mini-beta",
-  "gpt-4.1",
-  "gpt-4.1-mini",
-  "o3",
-  "o4-mini",
-  "qwen3-235b-a22b",
-  "qwen3-32b",
-  "gemini-2.5-pro-preview-05-06",
-  "llama-4-maverick",
-  "gemini-2.5-flash",
-  "claude-sonnet-4-20250514",
-  "claude-opus-4-20250514",
-  "gemini-2.5-pro",
 ];
 
 let seq = 1000; // 内置的模型序号生成器从1000开始
